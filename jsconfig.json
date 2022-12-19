@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["./components/*"],
+            "@assets/*": ["./public/assets/*"],
+            "@config/*": ["./config/*"],
+            "@hooks/*": ["./hooks/*"],
+            "@styles/*": ["./styles/*"]
+        }
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+}
